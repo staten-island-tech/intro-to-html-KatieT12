@@ -1,26 +1,65 @@
-<html lang="en">
+<html lang="en">    
 <head>
+    <meta charset="utf-8">
+
+    <style>
+    .background--custom {
+      background: linear-gradient(90deg, #adc3ff, #f3ffc4, #f5a2a1);
+      background-size: 300% 300%;
+      animation: gradient 4s alternate infinite;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 90%;
+      width: 100%;
+    }
+    @keyframes gradient {
+      0% {
+        background-position: 0%;
+      }
+      100% {
+        background-position: 100%;
+      }
+    }
+    </style>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
 </head>
-<body>
-    <h1>About Me</h1>
-    <h2>Subheader</h2>
-    <h3>Paragraph</h3>
-    <h3>Links</h3>
+<body
+        <div class="background--custom"></div>  
+    </body>
+   
+    <h1>Katie Tan</h1>
+    <h2>About Me</h2>
+    <br>
+    <p>My name is Katie Tan, and I am currently a junior at Staten Island Technical High School. This website was started on September 8,2023.<br> This is for an AP Computer Science assignment. </p>
+    <h3>This is my school website</h3>
     <a href="https://www.siths.org/">School Website</a>
+    <h3>I like...</h3>
     <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
+        <li>Cats</li>
+        <li>Dogs</li>
+        <li>Pizza</li>
+        <li>My bed</li>
     </ul>
+    <h3>My Schedule</h3>
     <ol>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
+        <li>AP Physics B</li>
+        <li>AP Physics B</li>
+        <li>AP Comp Sci</li>
+        <li>Lunch</li>
+        <li>English</li>
+        <li>APUSH</li>
+        <li>Gym</li>
+        <li>Russian</li>
+        <li>AP Pre-Calc</li>
     </ol>
+
 </body>
 </html>
