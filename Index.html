@@ -1,27 +1,44 @@
 <html lang="en">    
 <head>
-    <meta charset="utf-8">
-
-    <style>
+  <meta charset="utf-8">
+  <style>
+    path {
+      transform-origin: 50% 0%;
+    }
     .background--custom {
-      background: linear-gradient(90deg, #adc3ff, #f3ffc4, #f5a2a1);
-      background-size: 300% 300%;
-      animation: gradient 4s alternate infinite;
+      background-color: #254417;
       position: absolute;
+      width: 100vw;
+      height: 130vh;
+      z-index: -1;
       top: 0;
       left: 0;
-      height: 90%;
-      width: 100%;
     }
-    @keyframes gradient {
+    @keyframes path0 {
       0% {
-        background-position: 0%;
+        transform: rotate(-10deg);
       }
       100% {
-        background-position: 100%;
+        transform: rotate(10deg);
       }
     }
-    </style>
+    @keyframes path1 {
+      0% {
+        transform: rotate(-30deg);
+      }
+      100% {
+        transform: rotate(30deg);
+      }
+    }
+    @keyframes path2 {
+      0% {
+        transform: rotate(40deg);
+      }
+      100% {
+        transform: rotate(-40deg);
+      }
+    }
+  </style>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,15 +48,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
 </head>
-<body
-        <div class="background--custom"></div>  
-    </body>
-   
+<body>
+<svg class="background--custom" id="demo" viewBox="0 0 100 100" preserveAspectRatio="none">
+  <path fill="#B1B16E" fill-opacity="0.7" d="M-100 -100L200 -100L200 50L-100 50Z" style="animation: path0 5s linear infinite alternate;" /><path fill="#175C5C" fill-opacity="0.7" d="M-100 -100L200 -100L200 50L-100 50Z" style="animation: path1 12.5s linear infinite alternate;" /><path fill="#B167B1" fill-opacity="0.2" d="M-100 -100L200 -100L200 20L-100 20Z" style="animation: path2 30s linear infinite alternate;" />
+</svg>
+  <br>
     <h1>Katie Tan</h1>
     <h2>About Me</h2>
     <br>
-    <p>My name is Katie Tan, and I am currently a junior at Staten Island Technical High School. This website was started on September 8,2023.<br> This is for an AP Computer Science assignment. </p>
-    <h3>This is my school website</h3>
+    <p>My name is Katie Tan, and I am currently a junior at Staten Island Technical High School. This website was started on September 8, 2023<br> for an AP Computer Science assignment, and it is due on September 13, 2023. This is my first website ever. <br> My middle school was I.S. 259 (William McKinley) </p>
+    <h3>This is my school's website</h3>
     <a href="https://www.siths.org/">School Website</a>
     <h3>I like...</h3>
     <ul>
@@ -60,6 +78,10 @@
         <li>Russian</li>
         <li>AP Pre-Calc</li>
     </ol>
+    <br>
+    <center><h3>Here's a meme</h3></center>
+    <center><img src="https://i.ytimg.com/vi/42RrlIamcrQ/maxresdefault.jpg" alt="meme" width="600"></center>
+    
 
 </body>
 </html>

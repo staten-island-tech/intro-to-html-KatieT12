@@ -5,14 +5,30 @@ body {
 
 h1 {
     text-align: center;
-    color: black;
+    color: rgb(253, 253, 253);
 }
 
 h2 {
     text-align: center;
-    color: black;
+    color: rgb(253, 253, 253);
+}
+h3{
+    color: rgb(253, 253, 253);
 }
 p {
     text-align: center;
-    
+    font-size: large;
+    color: rgb(253, 253, 253);
+}
+ul {
+    font-size: large;
+    color: rgb(253, 253, 253);
+}
+ol {
+    font-size: large;
+    color: rgb(253, 253, 253);
+}
+a{
+    font-size: large;
+    color: rgb(253, 253, 253);
 }
