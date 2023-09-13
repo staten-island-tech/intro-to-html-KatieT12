@@ -1,34 +1,35 @@
 
 body {
     font-family: 'Nunito', sans-serif;
+    background-color: rgb(255, 223, 196);
 }
 
 h1 {
     text-align: center;
-    color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
 }
 
 h2 {
     text-align: center;
-    color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
 }
 h3{
-    color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
 }
 p {
     text-align: center;
     font-size: large;
-    color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
 }
 ul {
     font-size: large;
-    color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
 }
 ol {
     font-size: large;
-    color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
 }
 a{
     font-size: large;
-    color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
 }
